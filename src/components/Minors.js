@@ -138,7 +138,7 @@ export default function Minors() {
           order,
           i,
           j
-        )}`;
+        )}\n`;
       }
     }
     return temp;
