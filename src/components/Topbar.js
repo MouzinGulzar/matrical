@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
   return (
-    <div className="container">
-      <div class="btn-group dropend mt-2">
+    <div className="container mt-2">
+      <div class="btn-group dropend">
         <button
           type="button"
           class="btn btn-primary dropdown-toggle"
