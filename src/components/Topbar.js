@@ -5,14 +5,13 @@ import { NavLink } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="container">
-
-      <div class="btn-group dropend ml-2">
+      <div class="btn-group dropend mt-2">
         <button
           type="button"
           class="btn btn-primary dropdown-toggle"
           data-bs-toggle="dropdown"
           aria-expanded="false"
-          >
+        >
           <span style={{ fontWeight: "bold" }}>Select an Operation</span>
         </button>
         <ul class="dropdown-menu">
@@ -48,7 +47,7 @@ export default function Sidebar() {
             <NavLink
               to="/determinant"
               className="list-group-item list-group-item-action py-2 ripple"
-              >
+            >
               <i className="fa-solid fa-calculator me-3"></i>
               <span>Determinant</span>
             </NavLink>
@@ -66,7 +65,7 @@ export default function Sidebar() {
             <NavLink
               to="/adjoint"
               className="list-group-item list-group-item-action py-2 ripple"
-              >
+            >
               <i className="fa-solid fa-arrows-to-dot me-3"></i>
               <span>Adjoint</span>
             </NavLink>
@@ -75,7 +74,7 @@ export default function Sidebar() {
             <NavLink
               to="/inverse"
               className="list-group-item list-group-item-action py-2 ripple"
-              >
+            >
               <i className="fa-solid fa-i me-4"></i>
               <span>Inverse</span>
             </NavLink>
@@ -84,13 +83,13 @@ export default function Sidebar() {
             <NavLink
               to="/transpose"
               className="list-group-item list-group-item-action py-2 ripple"
-              >
+            >
               <i className="fa-solid fa-arrows-rotate me-3"></i>
               <span>Transpose</span>
             </NavLink>
           </li>
         </ul>
       </div>
-                </div>
+    </div>
   );
 }
